@@ -1,10 +1,11 @@
-﻿using System;
+﻿using InterfacesAndAbstraction.Contracts;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace InterfacesAndAbstraction
 {
-    public class Shoe
+    public class Shoe : IPrice
     {
         public decimal  Price { get; set; }
         public string Model { get; set; }

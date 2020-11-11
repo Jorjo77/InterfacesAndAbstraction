@@ -1,13 +1,16 @@
-﻿using System;
+﻿using InterfacesAndAbstraction.Contracts;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace InterfacesAndAbstraction
 {
-    public class Toothbrush
+    public class Toothbrush : IPrice
     {
         public decimal Price { get; set; }
         public string Model { get; set; }
         public int Withening { get; set; }
+
+
     }
 }
