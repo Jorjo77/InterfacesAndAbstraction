@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesAndAbstraction", "InterfacesAndAbstraction\InterfacesAndAbstraction.csproj", "{E23B22EA-29E4-46A2-9E45-AF47DD7B8896}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesAndAbstraction", "InterfacesAndAbstraction\InterfacesAndAbstraction.csproj", "{E23B22EA-29E4-46A2-9E45-AF47DD7B8896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesExample", "InterfacesExample\InterfacesExample.csproj", "{338D9AB6-7F45-4F0A-84A3-3C94A6CE1FDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{A4D33FE7-D36D-4640-8390-690007A27E38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClass", "AbstractClass\AbstractClass.csproj", "{0A63CB06-2B44-493F-A6F2-06C4E2207544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractedRendering", "AbstractedRendering\AbstractedRendering.csproj", "{0D330D7B-751C-4ADB-8E76-A31A76159199}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{E23B22EA-29E4-46A2-9E45-AF47DD7B8896}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E23B22EA-29E4-46A2-9E45-AF47DD7B8896}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E23B22EA-29E4-46A2-9E45-AF47DD7B8896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{338D9AB6-7F45-4F0A-84A3-3C94A6CE1FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{338D9AB6-7F45-4F0A-84A3-3C94A6CE1FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{338D9AB6-7F45-4F0A-84A3-3C94A6CE1FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{338D9AB6-7F45-4F0A-84A3-3C94A6CE1FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D33FE7-D36D-4640-8390-690007A27E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D33FE7-D36D-4640-8390-690007A27E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D33FE7-D36D-4640-8390-690007A27E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D33FE7-D36D-4640-8390-690007A27E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A63CB06-2B44-493F-A6F2-06C4E2207544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A63CB06-2B44-493F-A6F2-06C4E2207544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A63CB06-2B44-493F-A6F2-06C4E2207544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A63CB06-2B44-493F-A6F2-06C4E2207544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D330D7B-751C-4ADB-8E76-A31A76159199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D330D7B-751C-4ADB-8E76-A31A76159199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D330D7B-751C-4ADB-8E76-A31A76159199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D330D7B-751C-4ADB-8E76-A31A76159199}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
