@@ -9,12 +9,12 @@ namespace AbstractedRendering.Drawers
     {
         public void Write(string input)
         {
-            throw new NotImplementedException();
+            Console.Write(input); 
         }
 
         public void WriteLine(string input)
         {
-            throw new NotImplementedException();
+            Console.WriteLine(input);
         }
     }
 }
