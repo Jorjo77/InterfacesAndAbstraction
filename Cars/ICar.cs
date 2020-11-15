@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Cars.Contracts
+namespace Cars
 {
     interface ICar
     {
-        public string Model { get; set; }
-        public string Color { get; set; }
+        public string Model { get; }
+        public string Color { get; }
 
         public void Start();
-
         public void Stop();
     }
 }

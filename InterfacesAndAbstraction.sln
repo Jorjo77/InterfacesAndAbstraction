@@ -5,15 +5,19 @@ VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesAndAbstraction", "InterfacesAndAbstraction\InterfacesAndAbstraction.csproj", "{E23B22EA-29E4-46A2-9E45-AF47DD7B8896}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesExample", "InterfacesExample\InterfacesExample.csproj", "{338D9AB6-7F45-4F0A-84A3-3C94A6CE1FDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesExample", "InterfacesExample\InterfacesExample.csproj", "{338D9AB6-7F45-4F0A-84A3-3C94A6CE1FDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{A4D33FE7-D36D-4640-8390-690007A27E38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shapes", "Shapes\Shapes.csproj", "{A4D33FE7-D36D-4640-8390-690007A27E38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClass", "AbstractClass\AbstractClass.csproj", "{0A63CB06-2B44-493F-A6F2-06C4E2207544}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClass", "AbstractClass\AbstractClass.csproj", "{0A63CB06-2B44-493F-A6F2-06C4E2207544}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractedRendering", "AbstractedRendering\AbstractedRendering.csproj", "{0D330D7B-751C-4ADB-8E76-A31A76159199}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractedRendering", "AbstractedRendering\AbstractedRendering.csproj", "{0D330D7B-751C-4ADB-8E76-A31A76159199}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cars", "Cars\Cars.csproj", "{11D76AAD-C9EA-42F0-8F1F-4C1E05C9A846}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cars", "Cars\Cars.csproj", "{11D76AAD-C9EA-42F0-8F1F-4C1E05C9A846}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonInfo", "PersonInfo\PersonInfo.csproj", "{C7D2C1A9-2655-4A2A-AF49-75B7430E80A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telephony", "Telephony\Telephony.csproj", "{1562A1FA-DAB3-4FFF-81B7-EFF4250E4ABF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{11D76AAD-C9EA-42F0-8F1F-4C1E05C9A846}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11D76AAD-C9EA-42F0-8F1F-4C1E05C9A846}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11D76AAD-C9EA-42F0-8F1F-4C1E05C9A846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7D2C1A9-2655-4A2A-AF49-75B7430E80A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D2C1A9-2655-4A2A-AF49-75B7430E80A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D2C1A9-2655-4A2A-AF49-75B7430E80A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D2C1A9-2655-4A2A-AF49-75B7430E80A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1562A1FA-DAB3-4FFF-81B7-EFF4250E4ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1562A1FA-DAB3-4FFF-81B7-EFF4250E4ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1562A1FA-DAB3-4FFF-81B7-EFF4250E4ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1562A1FA-DAB3-4FFF-81B7-EFF4250E4ABF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
