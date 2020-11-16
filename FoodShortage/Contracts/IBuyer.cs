@@ -6,6 +6,7 @@ namespace FoodShortage.Contracts
 {
     public interface IBuyer
     {
+        public string Name { get; }
         public int Food { get; set; }
 
         public void BuyFood();

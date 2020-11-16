@@ -1,7 +1,5 @@
 ﻿using FoodShortage.Contracts;
 using FoodShortage.Models;
-using BorderControl.Contracts;
-using BorderControl.Models;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -13,8 +11,8 @@ namespace FoodShortage
     {
         public static void Main(string[] args)
         {
-            HashSet<Citizen> citizenCollection = new HashSet<Citizen>();
-            HashSet<Rebel> rebelCollection = new HashSet<Rebel>();
+            List<IBuyer> collection = new List<IBuyer>();
+
             int peopleNumber = int.Parse(Console.ReadLine());
             for (int i = 0; i < peopleNumber; i++)
             {
@@ -27,7 +25,7 @@ namespace FoodShortage
                     string id = splitedInput[2];
                     string birthdate = splitedInput[3];
                     Citizen citizen = new Citizen(name, age, id, birthdate);
-                    citizenCollection.Add(citizen);
+                    collection.Add(citizen);
                 }
                 else if (splitedInput.Length == 3)
                 {
@@ -35,7 +33,7 @@ namespace FoodShortage
                     string age = splitedInput[1];
                     string groupe = splitedInput[2];
                     Rebel rebel = new Rebel(name, age, groupe);
-                    rebelCollection.Add(rebel);
+                    collection.Add(rebel);
                 }
             }
 
@@ -46,20 +44,15 @@ namespace FoodShortage
                 {
                     break;
                 }
-                if (citizenCollection.FirstOrDefault(c=>c.Name==name)!=null)
+                var buyer = collection.SingleOrDefault(b => b.Name == name);
+
+                if (buyer != null)
                 {
-                    citizenCollection.First.BuyFood()
+                    buyer.BuyFood();
                 }
 
-
-                //collection.Where(x => x.Name==name)
-                  //.Select(x => x.Birthdate)
-                  //.ToList()
-                  //.ForEach(Console.WriteLine);
             }
-
-
-
+            Console.WriteLine(collection.Sum(b=>b.Food));
         }
     }
 }
