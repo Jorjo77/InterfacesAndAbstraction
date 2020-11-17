@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Cars
 {
-    interface ICar
+    public interface ICar
     {
         public string Model { get; }
         public string Color { get; }

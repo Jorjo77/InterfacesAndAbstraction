@@ -13,6 +13,7 @@ namespace Cars
             Color = color;
         }
 
+       
         public string Model { get ; private set ; }
         public string Color { get ; private set; }
 
